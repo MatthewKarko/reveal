@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="editTextSize">15sp</dimen>
+    <dimen name="profileDetailsPrimaryTextSize">16sp</dimen>
+    <dimen name="profileDetailsSubTextSize">14sp</dimen>
+    <dimen name="profileNameTextSize">18sp</dimen>
+    <dimen name="profileBioTextSize">14sp</dimen>
+    <dimen name="profileUsernameTextSize">17sp</dimen>
+</resources>

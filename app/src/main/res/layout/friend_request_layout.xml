@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/friendImage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/default_user_image"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.963"
+        app:shapeAppearanceOverlay="@style/CircularShape"
+        app:strokeWidth="3dp" />
+
+    <TextView
+        android:id="@+id/friendName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintStart_toEndOf="@+id/friendImage"
+        app:layout_constraintTop_toTopOf="@+id/friendImage"
+        tools:text="Jane Doe"/>
+
+    <TextView
+        android:id="@+id/friendUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-1dp"
+        android:layout_marginTop="0dp"
+        android:fontFamily="sans-serif-medium"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/friendName"
+        app:layout_constraintTop_toBottomOf="@+id/friendName"
+        tools:text="@sample/lorem" />
+
+    <ImageButton
+        android:id="@+id/declineFriendRequest"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:padding="0dp"
+        android:gravity="center"
+        android:background="@drawable/decline_button"
+        app:backgroundTint="@null"
+        android:src="@drawable/cross_icon"
+        app:tint="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.821"
+        app:layout_constraintStart_toEndOf="@+id/friendImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+    <ImageButton
+        android:id="@+id/addFriendRequest"
+        android:layout_width="42dp"
+        android:layout_height="42dp"
+        android:padding="0dp"
+        android:gravity="center"
+        android:background="@drawable/accept_button"
+        app:backgroundTint="@null"
+        android:src="@drawable/tick_icon"
+        app:tint="@color/black"
+        android:clickable="true"
+        android:focusable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1"
+        app:layout_constraintStart_toEndOf="@+id/friendImage"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

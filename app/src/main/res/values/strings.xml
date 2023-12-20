@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">RevealApp</string>
+    <string name="signUpTerms">By tapping on \"Continue\", I\'ve read and
+        agree to the Reveal terms of use and Reveal privacy policy.</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
