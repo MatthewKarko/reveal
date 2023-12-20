@@ -1,1 +1,2 @@
-# reveal
+## Reveal ##
+Reveal differs from the applications in the current market by revolutionising the concept to be a more enjoyable and motivating experience. To alleviate some of the pressure BeReal creates, Reveal provides a longer timeframe to share the photo with friends. Snapshots uploaded by users will be rated by the community. Each photo reviewed receives a score that is accumulated to the user account. Enticing rewards are available to incentivise individuals towards regular engagement with the social media platform. Retaining an active community is beneficial as it fosters a sense of belonging, which can support the development of mental health.
